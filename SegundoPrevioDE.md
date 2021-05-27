@@ -2,19 +2,23 @@ PLANTA DE OXIDACION DE AMONIACO A ACIDO NITRICO,Rubit Fernanda Urquijo
 Cuevas,1950171
 ================
 
-En el presente trabajo se visualizara una base de datos llamada
-Stackloss la cual nos muestra los datos operativos de una planta de
-oxidación de amoniaco a ácido nítrico. la cual posee un marco de datos
-con 21 observaciones sobre 4 variables
+En el presente trabajo se uso una base de datos llamada Stackloss la
+cual nos muestra los datos operativos de una planta de oxidación de
+amoniaco a ácido nítrico. la cual posee un marco de datos con 21
+observaciones sobre 4 variables
 
 ## concentración de ácido circulante
 
+    ## [1] "data.frame(stackloss (3:4,c(1,21))"
+
+    ## [1] "stackloss"
+
     ## -- Attaching packages --------------------------------------- tidyverse 1.3.1 --
 
-    ## v ggplot2 3.3.3     v dplyr   1.0.6
-    ## v tibble  3.1.0     v stringr 1.4.0
-    ## v tidyr   1.1.3     v forcats 0.5.1
-    ## v purrr   0.3.4
+    ## v ggplot2 3.3.3     v purrr   0.3.4
+    ## v tibble  3.1.0     v dplyr   1.0.6
+    ## v tidyr   1.1.3     v stringr 1.4.0
+    ## v readr   1.4.0     v forcats 0.5.1
 
     ## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
     ## x dplyr::filter() masks stats::filter()

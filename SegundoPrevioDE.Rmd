@@ -7,13 +7,14 @@ output: github_document
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-En el presente trabajo se visualizara una base de datos llamada Stackloss la cual nos muestra los datos operativos de una planta de oxidación de amoniaco a ácido nítrico. la cual posee un marco de datos con 21 observaciones sobre 4 variables
+En el presente trabajo se uso una base de datos llamada Stackloss la cual nos muestra los datos operativos de una planta de oxidación de amoniaco a ácido nítrico. la cual posee un marco de datos con 21 observaciones sobre 4 variables
 
 ## concentración de ácido circulante
 
 ```{r}
 data("stackloss")
-library(readr)
+"data.frame(stackloss (3:4,c(1,21))"
+"stackloss"
 ```
 
 ```{r}
