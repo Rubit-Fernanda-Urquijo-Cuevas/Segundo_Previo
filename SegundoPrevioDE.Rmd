@@ -4,26 +4,40 @@ output: github_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
+
+En el presente trabajo se visualizara una base de datos llamada Stackloss la cual nos muestra los datos operativos de una planta de oxidación de amoniaco a ácido nítrico. la cual posee un marco de datos con 21 observaciones sobre 4 variables
+
+## concentración de ácido circulante
 
 ```{r}
 data("stackloss")
+library(readr)
 ```
 
-## GitHub Documents
+```{r}
+library("tidyverse")
+"Acid.Conc.<-stackloss%"
+```
+ 
+La concentración del ácido circulante es de 89 y corresponde al 58,9% de ácido circulante . 
 
-This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+## Relación entre la temperatura del agua y la tasa de funcionamiento de la planta
 
-## Including Code
+El Air Flow representa la tasa de funcionamiento de la planta y el Water Temp es la temperatura del agua de refrigeración que circula a través de bobinas en la torre de absorción.
 
-You can include R code in the document as follows:
+## La temperatura del agua
+
+Presentes entre los 19° y 23°:
 
 ```{r cars}
 summary(cars)
 ```
 
-## Including Plots
+los datos de la temperatura del agua presentes entre los 19° y 23° es de ___ con el fin de calcular la desviación estándar entre las observaciones durante ese periodo de tiempo.
+
+## Análisis de dos variables 
 
 You can also embed plots, for example:
 
