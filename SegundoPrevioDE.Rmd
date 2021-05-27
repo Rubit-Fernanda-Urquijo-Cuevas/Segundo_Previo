@@ -1,10 +1,14 @@
 ---
-title: "Untitled"
+title: "PLANTA DE OXIDACION DE AMONIACO A ACIDO NITRICO,Rubit Fernanda Urquijo Cuevas,1950171"
 output: github_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+data("stackloss")
 ```
 
 ## GitHub Documents

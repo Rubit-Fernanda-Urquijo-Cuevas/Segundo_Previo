@@ -1,5 +1,10 @@
-Untitled
+PLANTA DE OXIDACION DE AMONIACO A ACIDO NITRICO,Rubit Fernanda Urquijo
+Cuevas,1950171
 ================
+
+``` r
+data("stackloss")
+```
 
 ## GitHub Documents
 
